@@ -61,7 +61,7 @@ namespace apiJuguetes.Controllers
             {
                 context.juguetes.Add(juguete);
                 context.SaveChanges();
-                var last = context.juguetes.OrderByDescending(i=> i.Id).FirstOrDefault();
+                var last = context.juguetes.OrderByDescending(i=> i.Id).FirstOrDefault().Id;
                 return Ok(last);
                 //return CreatedAtRoute("Get", new { id = juguete.Id }, juguete);
             }
