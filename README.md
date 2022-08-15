@@ -3,7 +3,7 @@ entra a [git bash]
 cd /c/
 cd code
 git clone https://github.com/rolivas74/rolivas74.git
-"apiJuguetes" es el proyecto de la Api, se debe ejecutar primero desde visual studio (antes es necesario cambiar la cadena de conexión en el appsetting).
+"apiJuguetes" es el proyecto de la Api, se debe ejecutar primero desde visual studio (antes es necesario cambiar la cadena de conexión en el appsetting con los datos del servidor sql donde se guardaran los datos).
   Crear la base de datos la cual se llamara "juguetes"
   enseguida crear la tabla jugetes con el siguiente script:
       -----------------------
